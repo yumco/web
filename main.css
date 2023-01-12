@@ -1,4 +1,25 @@
-h1{
+@import "reset.css";
+
+.hello_header__title{
     font-family: Georgia, serif;
     text-align: center;
 }
+
+.hello_header__text{
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*.background_img{
+    width: 50px;
+    height: 50px;
+    background-image: url(wave.png);
+    background-size: cover;
+    
+}*/
